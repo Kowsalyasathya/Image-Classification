@@ -15,12 +15,25 @@ The goal of this project is to develop a Convolutional Neural Network (CNN) for 
 ## DESIGN STEPS
 
 ### STEP 1:
-Write your own steps
+Define the goal of classifying fashion apparel items into 10 categories using a CNN. Ensure high accuracy while maintaining efficiency.
 
 ### STEP 2:
+Use the FashionMNIST dataset, which contains 60,000 training and 10,000 test images of clothing items. Each image is 28×28 grayscale and labeled with one of 10 classes.
 
 ### STEP 3:
+Convert images to tensors and normalize pixel values to [0,1]. Use DataLoaders for efficient batch processing during training and testing.
 
+### STEP 4: 
+Design a CNN with convolutional layers for feature extraction, ReLU activation, pooling layers for downsampling, and fully connected layers for classification.
+
+### STEP 5:
+Train the CNN using CrossEntropyLoss and Adam optimizer for multiple epochs. Monitor accuracy and loss to ensure proper learning.
+
+### STEP 6: Model Evaluation
+Test the model on unseen FashionMNIST data, compute performance metrics, and analyze using a confusion matrix.
+
+### STEP 7: Model Deployment & Visualization
+Save the trained model for future use and visualize predictions on sample test images. Optionally, integrate into an application for real-world use.
 
 ## PROGRAM
 
